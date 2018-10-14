@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style> 
+
+	
+
+	#map {
+		height: 400px;  
+		width: 100%;  
+	}
+
+	
+</style>
+</head>
+
+
+
+
+
+<body>
+	
+	
+
+
+
+	
+
+	<div id="map"></div>
+	<script>
+
+		function initMap() {
+			var url_string = window.location.href;
+			var url = new URL(url_string);
+			var lat1 = parseInt(url.searchParams.get("lat"));
+			var lon1 = parseInt(url.searchParams.get("lon"));
+console.log(lat1+lon1);
+
+			var rv = {lat: lat1, lng: lon1};
+			var map = new google.maps.Map(
+				document.getElementById('map'), {zoom: 17, center: rv});
+
+			var marker = new google.maps.Marker({position: rv, map: map});
+		}
+	</script>
+
+	<script async defer
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAysLXCvW2v8XlJHH_ZRvHzv7HWnDjdfMY&callback=initMap">
+</script> 
+
+</body>
+</html>
