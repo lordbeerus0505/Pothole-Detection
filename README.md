@@ -2,7 +2,7 @@
 A pothole detection implementation using LIDAR for a hackathon conducted by Curl Analytics
 
 
-##Team : Kengeri Cruisers
+## Team : Kengeri Cruisers
 Abhiram Natarajan - 1RV16CS198 
 Sai Praveen - 1RV16CS123
 Shobhit Kumar - 1RV16CS144
