@@ -9,3 +9,5 @@ Shobhit Kumar - 1RV16CS144
 Keshav Bharat - 1RV16CS070
 
 #### Detects potholes using LIDAR by noticing variations in the altitude and depth. Additionally provides volume of filling required for the pothole as well as the GPS coordinates of the pothole.
+
+Preprocessing of the LIDAR pointcloud dataset here: https://www.kaggle.com/shobhit1998/curl-hack-1
